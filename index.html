@@ -3,32 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | UI/UX & Frontend</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <title>Portfolio | Creative Developer & Designer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="logo">kingfetson</div>
-        <ul class="nav-links">
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="glass-nav">
+        <div class="logo">K.F.</div>
+        <div class="nav-links">
+            <a href="#work">Work</a>
+            <a href="#about">Expertise</a>
+            <a href="mailto:hello@example.com" class="nav-cta">Let's Talk</a>
+        </div>
     </nav>
 
-    <header class="hero">
-        <h1>Building Digital <br> Experiences.</h1>
-        <p>Software Developer & UI/UX Designer specializing in clean, minimalist interfaces.</p>
-        <a href="#projects" class="cta">View Projects</a>
-    </header>
+    <main>
+        <section class="hero">
+            <span class="badge">Available for Projects</span>
+            <h1>Crafting interfaces that <span class="text-gradient">breathe.</span></h1>
+            <p>Software Developer & UI/UX Designer. Specializing in minimal brand identities and high-performance mobile architectures.</p>
+        </section>
 
-    <section id="projects" class="project-section">
-        <h2 class="section-title">Selected Work</h2>
-        <div id="project-grid" class="grid">
-            <!-- JavaScript will inject cards here -->
-        </div>
-    </section>
+        <section id="work" class="work-section">
+            <div class="section-header">
+                <h2>Selected Projects</h2>
+                <div class="line"></div>
+            </div>
+            <div id="project-grid" class="modern-grid">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <section id="about" class="expertise">
+            <div class="expertise-content">
+                <h2>Technical Expertise</h2>
+                <div class="skills-flex">
+                    <div class="skill-tag">UI/UX Design</div>
+                    <div class="skill-tag">Mobile (Expo/React Native)</div>
+                    <div class="skill-tag">Frontend (React/Next.js)</div>
+                    <div class="skill-tag">Context Engineering</div>
+                    <div class="skill-tag">Brand Systems</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kingfetson. Built with precision.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
