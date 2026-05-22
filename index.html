@@ -2,56 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Creative Developer & Designer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>KINGFETSON | Digital Architecture & Interface Design</title>
+    <meta name="description" content="High-fidelity interfaces and scalable mobile infrastructures. Pushing the boundaries of digital purity.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="glass-nav">
-        <div class="logo">K.F.</div>
-        <div class="nav-links">
-            <a href="#work">Work</a>
-            <a href="#about">Expertise</a>
-            <a href="mailto:hello@example.com" class="nav-cta">Let's Talk</a>
+
+<div class="bg-canvas">
+    <div class="gradient-orb"></div>
+    <div class="gradient-orb-2"></div>
+    <div class="grid-pattern"></div>
+    <div class="noise"></div>
+</div>
+
+<nav class="glass-nav" id="navbar">
+    <div class="logo">KINGFETSON</div>
+    <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#expertise">Expertise</a>
+        <a href="mailto:studio@kingfetson.com" class="nav-cta">Start a Project <i class="fa-regular fa-paper-plane" style="margin-left: 6px;"></i></a>
+    </div>
+</nav>
+
+<main>
+    <section class="hero">
+        <div class="badge">✦ Open for 2026 partnerships — limited slots</div>
+        <h1>Architecting <br><span class="accent-word">Digital Purity.</span></h1>
+        <p>I build high-fidelity interfaces and scalable mobile infrastructures for brands that prioritize design as a competitive advantage.</p>
+        <div class="hero-actions">
+            <a href="#work" class="btn-primary">View Archive <i class="fa-solid fa-arrow-right-long"></i></a>
+            <a href="mailto:studio@kingfetson.com" class="btn-outline"><i class="fa-regular fa-message"></i> Inquire Now</a>
         </div>
-    </nav>
+    </section>
 
-    <main>
-        <section class="hero">
-            <span class="badge">Available for Projects</span>
-            <h1>Crafting interfaces that <span class="text-gradient">breathe.</span></h1>
-            <p>Software Developer & UI/UX Designer. Specializing in minimal brand identities and high-performance mobile architectures.</p>
-        </section>
+    <div class="section-header">
+        <span class="section-label">P R O J E C T S</span>
+        <h2 class="section-title">Selected Creations</h2>
+    </div>
+    
+    <section id="work" class="project-grid">
+        <div class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-bezier-curve"></i></div>
+            <div class="project-cat">Brand System / UI</div>
+            <h3>AfriLearn Design Tokens</h3>
+            <p>Establishing a comprehensive motion language and UI framework for the future of digital education in Africa — from typography to interaction states.</p>
+            <a href="#" class="card-link">Read case study <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="project-cat">Mobile Architecture</div>
+            <h3>Nexa Mobile Core</h3>
+            <p>A bare-metal React Native implementation focusing on 60fps interactions, modular state management and cross-platform performance at scale.</p>
+            <a href="#" class="card-link">Explore stack <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-cubes"></i></div>
+            <div class="project-cat">Design System</div>
+            <h3>Context-Aware UI Kit</h3>
+            <p>Research-driven interfaces with adaptive theming, AI integration, and accessible components — built for future-proof digital products.</p>
+            <a href="#" class="card-link">Discover <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+    
+    <div id="expertise" class="expertise-strip">
+        <div class="section-header" style="padding: 0 0 1.5rem 0; margin: 0;">
+            <span class="section-label">E N G I N E E R I N G</span>
+            <h2 class="section-title">Technical Edge</h2>
+        </div>
+        <div class="expertise-grid">
+            <div class="tech-pill reveal"><i class="fa-brands fa-figma"></i> UI/UX Design</div>
+            <div class="tech-pill reveal"><i class="fa-solid fa-layer-group"></i> Design Systems</div>
+            <div class="tech-pill reveal"><i class="fa-brands fa-react"></i> React/Next.js</div>
+            <div class="tech-pill reveal"><i class="fa-solid fa-mobile"></i> React Native (Expo)</div>
+            <div class="tech-pill reveal"><i class="fa-solid fa-diagram-project"></i> Context Engineering</div>
+            <div class="tech-pill reveal"><i class="fa-solid fa-pen-ruler"></i> Brand Systems</div>
+            <div class="tech-pill reveal"><i class="fa-solid fa-code"></i> SwiftUI / Kotlin MP</div>
+        </div>
+    </div>
+</main>
 
-        <section id="work" class="work-section">
-            <div class="section-header">
-                <h2>Selected Projects</h2>
-                <div class="line"></div>
-            </div>
-            <div id="project-grid" class="modern-grid">
-                <!-- Injected via JS -->
-            </div>
-        </section>
+<footer>
+    <p>© 2026 KINGFETSON — precision-crafted digital ecosystems. <a href="mailto:studio@kingfetson.com">studio@kingfetson.com</a></p>
+</footer>
 
-        <section id="about" class="expertise">
-            <div class="expertise-content">
-                <h2>Technical Expertise</h2>
-                <div class="skills-flex">
-                    <div class="skill-tag">UI/UX Design</div>
-                    <div class="skill-tag">Mobile (Expo/React Native)</div>
-                    <div class="skill-tag">Frontend (React/Next.js)</div>
-                    <div class="skill-tag">Context Engineering</div>
-                    <div class="skill-tag">Brand Systems</div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Kingfetson. Built with precision.</p>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
